@@ -26,6 +26,6 @@ then put in your init file
 ```elisp
     (load-theme 'sexy-monochrome)
 ```
-This theme is based on the Xavier Noria monochrome-theme.[https://github.com/fxn/monochrome-theme.el]
+This theme is based on the Xavier Noria [monochrome-theme].(https://github.com/fxn/monochrome-theme.el)
 
 Works with Emacs 24.
