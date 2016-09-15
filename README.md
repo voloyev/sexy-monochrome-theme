@@ -23,7 +23,7 @@ and then put in your init file
      (load-theme 'sexy-monochrome)
 ```
 
- OR throw this file into ~/.emacs.d and
+ **OR throw this file into ~/.emacs.d and_**
  
 ```elisp
      (add-to-list 'custom-theme-load-path
