@@ -1,34 +1,38 @@
-;;; package --- Summary:
-;;; Commentary:
 ;;; sexy-monochrome-theme.el --- A sexy dark Emacs 24 theme for your sexy code
-;; Copyright (C) 2011-2014 Xavier Noria
-;; No copyright (c) 2016 Volodymyr Yevtushenko
-;;
+;; Copyright (c) 2016 Volodymyr Yevtushenko
 ;; Author: Volodymyr Yevtushenko <vol.yevtushenko@ukr.net>
+;; Keywords: themes
+;; URL: https://github.com/nuncostans/sexy-monochrome-theme
+;; Version: 1.0
+
+;; This program is free software; you can redistribute it and/or modify
+;; it under the terms of the GNU General Public License as published by
+;; the Free Software Foundation, either version 3 of the License, or
+;; (at your option) any later version.
+
+;; This program is distributed in the hope that it will be useful,
+;; but WITHOUT ANY WARRANTY; without even the implied warranty of
+;; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+;; GNU General Public License for more details.
+
+;; You should have received a copy of the GNU General Public License
+;; along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+;;; Commentary:
+
+;; To use it, put the following in your Emacs configuration file:
 ;;
-;; Just install form MELPA
+;;   (load-theme 'sexy-monochrome)
 ;;
-;;     M-x package-install RET sexy-monochrome-theme RET
-;;
-;; and then put in your init file
-;;
-;;     (load-theme 'sexy-monochrome)
-;;
-;; OR throw this file into ~/.emacs.d and
-;;
-;;     (add-to-list 'custom-theme-load-path
-;;                  "~/.emacs.d/YOUR_FOLDER_WITH_THEME/")
-;;
-;;     M-x load-theme RET sexy-monochrome RET
-;;
-;; then put in your init file
-;;
-;;     (load-theme 'sexy-monochrome)
-;;
-;; This theme is based on the Xavier Noria monochrome-theme.
-;;
-;; Works with Emacs 24.
+;; Requirements: Emacs 24.
+
+;;; Credits:
+
+;; Based on the Xavier Noria monochrome-theme
+;; https://github.com/fxn/monochrome-theme.el/
+
 ;;; Code:
+
 (deftheme sexy-monochrome
   "Gray on black for your focused hacking sessions.")
 
@@ -292,16 +296,14 @@
    'sexy-monochrome
    `(ansi-color-names-vector [,black ,lgray ,dgray ,sgray])))
 
-;; Autoload for MELPA
-
 ;;;###autoload
 (when (and (boundp 'custom-theme-load-path) load-file-name)
   (add-to-list 'custom-theme-load-path
                (file-name-as-directory (file-name-directory load-file-name))))
 
 (provide-theme 'sexy-monochrome)
+
 ;; Local Variables:
-;; no-byte-compile: t
 ;; End:
 
 ;;; sexy-monochrome-theme.el ends here
