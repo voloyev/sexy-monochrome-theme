@@ -1,5 +1,12 @@
 ## Sexy monochrome theme for emacs
 
+
+## Screenshots
+### Source Code
+
+![Monochrome Theme for Emacs 24: Source Code](https://raw.githubusercontent.com/nuncostans/sexy-monochrome-theme/master/sexy-monochrome-theme.png)
+
+### Instalation
 Just install form MELPA
 
 ```elisp
