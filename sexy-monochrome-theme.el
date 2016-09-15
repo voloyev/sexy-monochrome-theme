@@ -1,5 +1,7 @@
 ;;; sexy-monochrome-theme.el --- A sexy dark Emacs 24 theme for your sexy code
+
 ;; Copyright (c) 2016 Volodymyr Yevtushenko
+
 ;; Author: Volodymyr Yevtushenko <vol.yevtushenko@ukr.net>
 ;; Keywords: themes
 ;; URL: https://github.com/nuncostans/sexy-monochrome-theme
@@ -22,7 +24,7 @@
 
 ;; To use it, put the following in your Emacs configuration file:
 ;;
-;;   (load-theme 'sexy-monochrome)
+;;   (load-theme 'sexy-monochrome t)
 ;;
 ;; Requirements: Emacs 24.
 
