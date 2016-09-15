@@ -45,7 +45,7 @@
       (sgray "light slate gray"))
 
   (custom-theme-set-faces
-   'monochrome
+   'sexy-monochrome
 
    (if (window-system)
        `(default ((,class (:foreground ,lgray :background ,black)))))
@@ -79,14 +79,14 @@
    `(success ((,class (:foreground "green"))))
 
    ;; Font lock faces
-   `(font-lock-builtin-face ((,class (:foreground ,dgray))))
-   `(font-lock-comment-face ((,class (:foreground "gray33"))))
-   `(font-lock-constant-face ((,class (:weight bold :foreground ,sgray))))
+   `(font-lock-builtin-face ((,class (:foreground ,lgray))))
+   `(font-lock-comment-face ((,class (:foreground "gray36"))))
+   `(font-lock-constant-face ((,class (:foreground ,dgray))))
    `(font-lock-function-name-face ((t (:foreground ,sgray))))
    `(font-lock-keyword-face ((,class (:weight bold :foreground ,white))))
    `(font-lock-string-face ((t (:foreground ,sgray))))
    `(font-lock-type-face ((,class (:foreground ,sgray))))
-   `(font-lock-variable-name-face ((,class (:weight bold :foreground ,sgray))))
+   `(font-lock-variable-name-face ((,class (:foreground ,dgray))))
    `(font-lock-warning-face ((,class (:foreground "yellow"))))
 
    ;; Button and link faces
@@ -289,7 +289,7 @@
                                           :slant unspecified :underline ,sgray)))))
 
   (custom-theme-set-variables
-   'monochrome
+   'sexy-monochrome
    `(ansi-color-names-vector [,black ,lgray ,dgray ,sgray])))
 
 ;; Autoload for MELPA
