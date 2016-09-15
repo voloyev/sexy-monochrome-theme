@@ -4,7 +4,12 @@
 ## Screenshots
 ### Source Code
 
-![Monochrome Theme for Emacs 24: Source Code](https://raw.githubusercontent.com/nuncostans/sexy-monochrome-theme/master/sexy-monochrome-theme.png)
+![Sexy monochrome theme source code](https://raw.githubusercontent.com/nuncostans/sexy-monochrome-theme/master/sexy-monochrome-theme.png)
+
+### Helm
+![Sexy monochrome theme helm-find-files](https://raw.githubusercontent.com/nuncostans/sexy-monochrome-theme/master/sexy-monochrome-theme-helm.png)
+
+
 
 ### Instalation
 Just install form MELPA
