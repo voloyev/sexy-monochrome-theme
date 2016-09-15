@@ -1,6 +1,6 @@
 ;;; package --- Summary:
 ;;; Commentary:
-;;; sexy-monochrome-theme.el --- A sexy dark Emacs 24 theme for your focused hacking sessions
+;;; sexy-monochrome-theme.el --- A sexy dark Emacs 24 theme for your sexy code
 ;; Copyright (C) 2011-2014 Xavier Noria
 ;; No copyright (c) 2016 Volodymyr Yevtushenko
 ;;
