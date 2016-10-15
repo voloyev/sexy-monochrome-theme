@@ -73,8 +73,8 @@
 
    ;; Whitespace-mode
    `(whitespace-empty ((,class (:background unspecified :foreground "red"))))
-   `(whitespace-line ((,class (:background "gray9" :foreground ,black))))
-   `(whitespace-space ((t (:foreground ,dgray))))
+   `(whitespace-line ((,class (:background ,lgray :underline t))))
+   `(whitespace-space ((t (:foreground "gray9"))))
    `(whitespace-tab ((t (:foreground ,dgray))))
 
    ;; Escape and prompt faces
