@@ -5,7 +5,7 @@
 ;; Author: Volodymyr Yevtushenko <vol.yevtushenko@ukr.net>
 ;; Keywords: themes
 ;; URL: https://github.com/nuncostans/sexy-monochrome-theme
-;; Version: 1.0
+;; Version: 1.5
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
@@ -44,7 +44,7 @@
                         t)
 
 (let ((class '((class color) (min-colors 10)))
-      (black "black")
+      (black "#000000")
       (white "white")
       (lgray "light gray")
       (dgray "dark gray")
@@ -53,8 +53,7 @@
   (custom-theme-set-faces
    'sexy-monochrome
 
-   (if (window-system)
-       `(default ((,class (:foreground ,lgray :background ,black)))))
+   `(default ((,class (:foreground ,lgray :background ,black))))
    `(cursor ((,class (:background ,lgray))))
 
    ;; Highlighting faces
