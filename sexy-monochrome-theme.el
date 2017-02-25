@@ -92,7 +92,7 @@
 
    ;; Font lock faces
    `(font-lock-builtin-face ((,class (:foreground ,foreground :weight bold))))
-   `(font-lock-constant-face ((,class (:foreground ,foreground :weight bold))))
+   `(font-lock-constant-face ((,class (:foreground ,sgray :weight bold))))
    `(font-lock-keyword-face ((,class (:foreground ,foreground :weight bold))))
    `(font-lock-type-face ((,class (:foreground ,foreground :slant italic))))
    `(font-lock-function-name-face ((,class (:foreground ,foreground :weight bold))))
