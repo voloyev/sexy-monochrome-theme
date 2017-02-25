@@ -40,4 +40,4 @@ then put in your init file
     (load-theme 'sexy-monochrome)
 ```
 
-Works with Emacs 24.
+Works with Emacs >= 24.
