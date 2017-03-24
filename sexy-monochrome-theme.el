@@ -55,6 +55,7 @@
       (string "light slate gray")
       (linum "dim gray")
       (paren-match "dark slate blue")
+      (paren-mismatch "red")
       )
 
   (custom-theme-set-faces
@@ -109,8 +110,12 @@
 
    ;; Show-paren
    `(show-paren-match ((t (:background ,paren-match))))
-   `(show-paren-mismatch ((t (:background "red"))))
+   `(show-paren-mismatch  ((t (:background ,paren-mismatch))))
    
+   ;; Smartparens show mode
+   `(sp-show-pair-match-face ((t (:background ,paren-match))))
+   `(sp-show-pair-mismatch-face ((t (:background ,paren-mismatch))))
+
    ;; highlight indentation current column face
    `(highlight-indentation-current-column-face ((t (:background "gray20"))))
 
