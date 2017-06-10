@@ -4,7 +4,7 @@
 
 ;; Author: Volodymyr Yevtushenko <vol.yevtushenko@ukr.net>
 ;; Keywords: themes
-;; URL: https://github.com/nuncostans/sexy-monochrome-theme
+;; URL: https://github.com/voloyev/sexy-monochrome-theme
 ;; Version: 2.0
 
 ;; This program is free software; you can redistribute it and/or modify
