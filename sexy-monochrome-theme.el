@@ -55,8 +55,7 @@
       (string "light slate gray")
       (linum "dim gray")
       (paren-match "dark slate blue")
-      (paren-mismatch "red")
-      )
+      (paren-mismatch "red"))
 
   (custom-theme-set-faces
    'sexy-monochrome
