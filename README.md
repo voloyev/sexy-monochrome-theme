@@ -12,7 +12,7 @@ This theme is based on the Xavier Noria [monochrome-theme](https://github.com/fx
 
 
 
-### Instalation
+### Installation
 Just install form MELPA
 
 ```elisp
