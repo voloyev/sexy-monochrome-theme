@@ -7,10 +7,6 @@ This theme is based on the Xavier Noria [monochrome-theme](https://github.com/fx
 
 ![Sexy monochrome theme source code](https://raw.githubusercontent.com/nuncostans/sexy-monochrome-theme/master/sexy-monochrome-theme.png)
 
-### Helm
-![Sexy monochrome theme helm-find-files](https://raw.githubusercontent.com/nuncostans/sexy-monochrome-theme/master/sexy-monochrome-theme-helm.png)
-
-
 
 ### Installation
 Just install form MELPA
