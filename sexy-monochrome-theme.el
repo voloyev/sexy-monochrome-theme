@@ -50,7 +50,7 @@
       (dgray "#a9a9a9")
       (sgray "#778899")
       (foreground "#e5e5e5")
-      (region "#778899")
+      (region "#3d3d3d")
       (comment "#616161")
       (string "#6495ed")
       (linum "#696969")
