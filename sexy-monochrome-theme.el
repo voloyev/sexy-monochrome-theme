@@ -52,7 +52,7 @@
       (foreground "#e5e5e5")
       (region "#3d3d3d")
       (comment "#616161")
-      (string "#6495ed")
+      (string "#4682b4")
       (linum "#696969")
       (paren-match "#483d8b")
       (paren-mismatch "#ff0000"))
