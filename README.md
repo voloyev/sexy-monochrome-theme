@@ -1,7 +1,8 @@
 [![MELPA](https://melpa.org/packages/sexy-monochrome-theme-badge.svg)](https://melpa.org/#/sexy-monochrome-theme)
 # Sexy monochrome theme for emacs
 This theme is based on the Xavier Noria [monochrome-theme](https://github.com/fxn/monochrome-theme.el).
-And impressed by ["Monochrome color scheme for Vim"](https://github.com/fxn/vim-monochrome) 
+
+And impressed by ["Monochrome color scheme for Vim"](https://github.com/fxn/vim-monochrome)
 
 ## Screenshots
 ### Source Code
