@@ -2,6 +2,8 @@
 # Sexy monochrome theme for emacs
 This theme is based on the Xavier Noria [monochrome-theme](https://github.com/fxn/monochrome-theme.el).
 
+And impressed by ["Monochrome color scheme for Vim"](https://github.com/fxn/vim-monochrome)
+
 ## Screenshots
 ### Source Code
 
