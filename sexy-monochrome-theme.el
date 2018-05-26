@@ -5,7 +5,7 @@
 ;; Author: Volodymyr Yevtushenko <voloyev@vivaldi.net>
 ;; Keywords: themes
 ;; URL: https://github.com/voloyev/sexy-monochrome-theme
-;; Version: 2.0
+;; Version: 3.0
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
@@ -33,7 +33,7 @@
 ;; Based on the Xavier Noria monochrome-theme
 ;; https://github.com/fxn/monochrome-theme.el/
 
-;; And impressed by "Monochrome color scheme for Vim" 
+;; And impressed by "Monochrome color scheme for Vim"
 ;; https://github.com/fxn/vim-monochrome
 
 ;;; Code:
@@ -53,7 +53,7 @@
       (dgray "#a9a9a9")
       (sgray "#778899")
       (foreground "#e5e5e5")
-      (region "#3d3d3d")
+      (region "#191970")
       (comment "#616161")
       (string "#4682b4")
       (linum "#696969")
@@ -94,11 +94,11 @@
    `(success ((,class (:foreground "green"))))
 
    ;; Font lock faces
-   `(font-lock-builtin-face ((,class (:foreground ,foreground :weight semi-bold))))
-   `(font-lock-constant-face ((,class (:foreground ,foreground :weight semi-bold))))
-   `(font-lock-keyword-face ((,class (:foreground ,foreground :weight semi-bold))))
+   `(font-lock-builtin-face ((,class (:foreground ,foreground :weight bold))))
+   `(font-lock-constant-face ((,class (:foreground ,foreground :weight bold))))
+   `(font-lock-keyword-face ((,class (:foreground ,foreground :weight bold))))
    `(font-lock-type-face ((,class (:foreground ,foreground :slant italic))))
-   `(font-lock-function-name-face ((,class (:foreground ,foreground :weight semi-bold))))
+   `(font-lock-function-name-face ((,class (:foreground ,foreground :weight bold))))
    `(font-lock-variable-name-face ((,class (:foreground ,foreground))))
    `(font-lock-comment-delimiter-face ((,class (:foreground ,comment))))
    `(font-lock-comment-face ((,class (:foreground ,comment))))
