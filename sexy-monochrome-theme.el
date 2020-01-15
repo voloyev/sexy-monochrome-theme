@@ -58,7 +58,10 @@
       (string "#4682b4")
       (linum "#696969")
       (paren-match "#483d8b")
-      (paren-mismatch "#ff0000"))
+      (paren-mismatch "#ff0000")
+      (whitespace-mode-color "gray30")
+      (warning-color "yellow")
+      (error-color "red"))
 
   (custom-theme-set-faces
    'sexy-monochrome
@@ -74,23 +77,24 @@
    `(isearch ((,class (:foreground ,gblack :background ,lgray))))
    `(lazy-highlight ((,class (:foreground ,gblack :background ,lgray))))
    `(linum ((t (:foreground ,linum))))
-   `(trailing-whitespace ((,class (:background "red"))))
+   `(trailing-whitespace ((,class (:background ,error-color))))
 
    ;; Mode line faces
    `(mode-line ((t ( :box (:line-width -1 :style released-button)))))
    `(mode-line-inactive ((t (:box (:line-width -1 :style released-button)))))
 
    ;; Whitespace-mode
-   `(whitespace-empty ((,class (:background unspecified :foreground "red"))))
+   `(whitespace-empty ((,class (:background unspecified :foreground ,error-color))))
    `(whitespace-line ((,class (:background ,lgray :underline t))))
-   `(whitespace-space ((t (:foreground "gray9"))))
-   `(whitespace-tab ((t (:foreground ,dgray))))
+   `(whitespace-newline ((t (:background nil :foreground ,whitespace-mode-color))))
+   `(whitespace-space ((t (:foreground ,whitespace-mode-color :background nil))))
+   `(whitespace-tab ((t (:foreground ,whitespace-mode-color :background nil))))
 
    ;; Escape and prompt faces
    `(minibuffer-prompt ((,class (:weight bold :foreground ,gwhite))))
    `(escape-glyph ((,class (:foreground ,lgray))))
-   `(error ((,class (:weight bold :slant italic :foreground "red"))))
-   `(warning ((,class (:foreground "yellow"))))
+   `(error ((,class (:weight bold :slant italic :foreground ,error-color))))
+   `(warning ((,class (:foreground ,warning-color))))
    `(success ((,class (:foreground "green"))))
 
    ;; Font lock faces
@@ -104,7 +108,7 @@
    `(font-lock-comment-face ((,class (:foreground ,comment))))
    `(font-lock-doc-face ((,class (:inherit (font-lock-comment-face)))))
    `(font-lock-string-face ((,class (:foreground ,foreground :foreground ,string))))
-   `(font-lock-warning-face ((,class (:foreground "yellow"))))
+   `(font-lock-warning-face ((,class (:foreground ,warning-color))))
    
    ;; Button and link faces
    `(link ((,class (:underline t :foreground ,lgray))))
@@ -119,7 +123,8 @@
    `(sp-show-pair-mismatch-face ((t (:background ,paren-mismatch))))
 
    ;; highlight indentation current column face
-   `(highlight-indentation-current-column-face ((t (:background "gray20"))))
+   `(highlight-indentation-current-column-face ((t (:background "gray40"))))
+   `(highlight-indentation-face ((t (:background "gray20"))))
 
    ;; Speedbar
    `(speedbar-button-face ((,class (:foreground ,dgray))))
@@ -197,7 +202,7 @@
 
    ;; Org-mode
    `(org-link ((t (:foreground ,sgray :underline t))))
-   `(org-todo ((t (:bold t :foreground "red"))))
+   `(org-todo ((t (:bold t :foreground ,error-color))))
    `(org-done ((t (:bold t :foreground "green"))))
    `(org-verbatim ((t (:foreground "dim gray"))))
 
